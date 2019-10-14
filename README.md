@@ -38,6 +38,9 @@
 находящие в данном репозитории (предварительно создав `.env` файл на основе `.env.example` 
 и установив зависимости из `requirements-test.txt`):
 ```shell script
+set -o allexport
 source .env
+set +o allexport
+pip install -r requirements-test.txt
 python -m unittest
 ```
