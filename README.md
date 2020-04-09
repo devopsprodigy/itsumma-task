@@ -45,11 +45,11 @@
 находящиеся в данном репозитории (предварительно создав `.env` файл на основе `.env.example`
 и установив зависимости из `requirements-test.txt`):
 
-```shell script
+```bash
 pip install -r requirements-test.txt
 ```
 
-```shell script
+```bash
 python -m unittest
 ```
 
